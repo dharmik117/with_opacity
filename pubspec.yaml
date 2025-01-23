@@ -1,6 +1,6 @@
 name: with_opacity
 description: "A modern color extension for managing opacity in Flutter. Easily apply custom opacity to any color with a clean and intuitive API. Perfect for updating apps to the latest Flutter SDK."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/dharmik117/with_opacity
 
 environment:
