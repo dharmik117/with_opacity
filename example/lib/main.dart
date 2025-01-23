@@ -50,6 +50,11 @@ class _HomePageState extends State<HomePage> {
             width: 500,
             color: Colors.pink.withCustomOpacity(0.2), // Color with opacity
           ),
+          Container(
+            height: 200,
+            width: 500,
+            color: Colors.yellow.withCustomOpacity(0.2), // Color with opacity
+          ),
         ],
       ),
     );

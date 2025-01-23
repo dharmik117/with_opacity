@@ -14,6 +14,12 @@ functionality of the deprecated `.withOpacity` method in the latest Flutter SDK.
 
 ---
 
+## Example Screenshot
+
+Here’s how `with_opacity` looks in action:
+
+![Example of with_opacity](assets/images/example_ss.png)
+
 ### Installation
 
 Add `with_opacity` to your `pubspec.yaml` file:
@@ -40,7 +46,6 @@ import 'package:with_opacity/with_opacity.dart';
 - Returns:
   A Color object with the specified opacity applied.
 
-
 ## Example
 
 ```
@@ -57,7 +62,7 @@ import 'package:with_opacity/with_opacity.dart';
 Contributing: We welcome your contributions! Feel free to submit bug reports, feature requests, or
 pull requests to improve this package.
 Issues: Please report any issues you encounter using the GitHub issue
-tracker: https://github.com/dharmik117/searchable_bottom_sheet.
+tracker: https://github.com/dharmik117/with_opacity.
 License: This package is released under the MIT License (see LICENSE file for details).
 Example:
 
