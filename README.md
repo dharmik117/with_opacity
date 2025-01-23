@@ -1,39 +1,66 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# with_opacity
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A lightweight Dart package that allows you to apply custom opacity to colors, replicating the
+functionality of the deprecated `.withOpacity` method in the latest Flutter SDK.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Easily apply opacity to any `Color` object.
+- Mimics the deprecated `.withOpacity` method while ensuring compatibility with the latest Flutter
+  SDK.
+- Simple and intuitive syntax.
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### Installation
 
-## Usage
+Add `with_opacity` to your `pubspec.yaml` file:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+---
 
-```dart
-const like = 'sample';
+### Usage
+
+-Import the package in your Dart file:
+
 ```
+import 'package:with_opacity/with_opacity.dart';
+```
+
+## API Reference
+
+- withCustomOpacity(double opacity)
+
+- Applies a custom opacity to the color. The opacity must be a value between 0.0 and 1.0.
+
+- Parameters:
+  opacity (double): A value between 0.0 (fully transparent) and 1.0 (fully opaque).
+
+- Returns:
+  A Color object with the specified opacity applied.
+
+
+## Example
+
+```
+ Color color = Colors.red.withCustomOpacity(0.5);
+ ```
+
+## Why Use with_opacity?
+
+- The .withOpacity method is deprecated in the latest Flutter SDK. The with_opacity package provides
+  a modern and easy-to-use alternative, ensuring your code remains up-to-date.
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Contributing: We welcome your contributions! Feel free to submit bug reports, feature requests, or
+pull requests to improve this package.
+Issues: Please report any issues you encounter using the GitHub issue
+tracker: https://github.com/dharmik117/searchable_bottom_sheet.
+License: This package is released under the MIT License (see LICENSE file for details).
+Example:
+
+A more elaborate example showcasing both widgets can be found in the /example directory of this
+package.
+
